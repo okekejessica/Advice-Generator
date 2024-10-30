@@ -15,17 +15,13 @@ const Advice = ({ advice, getAdvice, loading }) => {
           <p className="mb-2 advice">"{advice.advice}"</p>
           <img
             className="desk-img "
-            src="/src/assets/images/pattern-divider-desktop.svg"
+            src="/src/assets/pattern-divider-desktop.svg"
             alt=""
           />
 
           <button onClick={getAdvice}>
             <div className="dice ">
-              <img
-                id="advice-button"
-                src="/src/assets/images/icon-dice.svg"
-                alt=""
-              />
+              <img id="advice-button" src="/src/assets/icon-dice.svg" alt="" />
             </div>
           </button>
         </>
